@@ -1,38 +1,71 @@
-.App {
+.Container {
+  width: 100%;
+  max-width: 1024px; 
+  padding: 15px;
+  top: 10px;
+  margin: 0 auto;
+}
+
+.container:after, .row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.row {
+  margin-bottom: 15px;
+}
+
+.Header {
+  font-weight: bolder;
+  font-size: 200%;
   text-align: center;
+  padding-top: 5px;
+  background-color: lightsteelblue;
+  width: 66.6666666667%;
+  float: left;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.Text {
+  font-size: medium;
+  font-style: italic;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.Photo {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-origin: border-box;
+  width: 33.3333333333%;
+  float: left;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.Info {
+  text-align: left;
+  height: max-content;
+  border-spacing: 0 10px;
+  padding-left: 10px;
 }
 
-.App-link {
-  color: #61dafb;
+.Info td {
+  vertical-align: middle;
+  padding: 10px;
+  padding-right: 30px; 
+  padding-left: 10px;
+  border-top: 2px solid lightsteelblue;
+  border-bottom: 2px solid lightsteelblue;
+  border-right: 2px solid lightsteelblue; 
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.Info td:first-child {
+  border-left: 2px solid lightsteelblue;
+  color: grey;
+  font-weight: bold;
 }
+
+.Info td:nth-child(3) {
+  color: grey;
+  font-weight: bold;
+}
+
+
+

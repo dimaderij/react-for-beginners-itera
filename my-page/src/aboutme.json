@@ -1,0 +1,15 @@
+{
+    "short_name": "Dmitro",
+    "last_name": "Deriy",
+    "age": "33",
+    "contact": {
+        "phone": "+380123334455",
+        "email": "google@gmail.com"
+    },
+    "more": {
+        "city": "Kryvyi Rih",
+        "country": "Ukraine",
+        "address": "str.Poshtova, 1",
+        "text": "Lorem ipsum dolor sit amet consectetur adipiscing elit diam hendrerit, nascetur congue natoque class auctor ultricies viverra eget montes, mauris consequat vulputate metus volutpat condimentum iaculis finibus. Fermentum ridiculus scelerisque maecenas bibendum ad neque, sem commodo condimentum eget fames congue turpis, curae est mollis tortor morbi. Dui orci et commodo donec quam tellus imperdiet luctus torquent, dapibus magna natoque libero risus mauris ultrices litora, lectus vehicula enim fringilla rhoncus at vel ullamcorper."
+    }
+}
